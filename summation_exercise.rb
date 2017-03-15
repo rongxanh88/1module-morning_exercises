@@ -9,8 +9,8 @@ def sum_then_square(min_value, max_value)
   return sum
 end
 
-value1 = square_then_sum(1,10)
-value2 = sum_then_square(1,10)
+value1 = square_then_sum(1,100)
+value2 = sum_then_square(1,100)
 total = value2 - value1
 
 puts "#{value2} - #{value1} = #{total}."
