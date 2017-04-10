@@ -38,4 +38,9 @@ class AllergiesTest < Minitest::Test
     tester = Allergies.new
     assert_equal ["chocolate", "peanuts"], tester.score(34)
   end
+
+  def test_score_146_
+    tester = Allergies.new
+    assert_equal ["cats", "tomatoes", "peanuts"], tester.score(146)
+  end
 end
