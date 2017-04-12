@@ -39,7 +39,7 @@ class AllergiesTest < Minitest::Test
     assert_equal ["chocolate", "peanuts"], tester.score(34)
   end
 
-  def test_score_146_
+  def test_score_146
     tester = Allergies.new
     assert_equal ["cats", "tomatoes", "peanuts"], tester.score(146)
   end
